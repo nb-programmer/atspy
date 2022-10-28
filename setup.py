@@ -3,9 +3,8 @@ import os
 import sys
 
 
-
 setup(name='atspy',
-      version='0.2.6',
+      version='0.2.6.1',
       description='Automated Time Series in Python',
       url='https://github.com/firmai/atspy',
       author='snowde',
@@ -13,7 +12,6 @@ setup(name='atspy',
       license='MIT',
       packages=['atspy'],
       install_requires=[
-
             "cachetools==4.0.0",
             "Cython==0.29.14",
             "dataclasses==0.7",
@@ -21,15 +19,14 @@ setup(name='atspy',
             "decorator==4.4.1",
             "easydict==1.9",
             "fbprophet==0.5",
-            "gluonts==0.4.2",
             "gunicorn==20.0.4",
             "Keras==2.2.5",
-            "lightgbm==2.2.3",
-            "matplotlib==3.1.2",
-            "mxnet-cu100==1.4.1",
-            "numba==0.47.0",
-            "numexpr==2.7.1",
-            "pandas==0.25.3",
+            "lightgbm",
+            "matplotlib",
+            "mxnet-cu100",
+            "numba",
+            "numexpr",
+            "pandas",
             "pip-tools==4.2.0",
             "pmdarima==1.5.2",
             "psutil==5.6.6",
@@ -52,10 +49,10 @@ setup(name='atspy',
             "typing-extensions==3.6.6",
             "xlrd==1.1.0",
             "seasonal==0.3.1",
-            "nbeats-pytorch==1.3.0",
-            "gluonts==0.4.2",
-            "numpy==1.17.4",
-            "pydantic==1.4"
+            "nbeats-pytorch",
+            "gluonts",
+            "numpy~=1.16",
+            "pydantic"
             ],
             
       zip_safe=False)
